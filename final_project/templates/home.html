@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicketBox</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6f9;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        li {
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 12px 24px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to TicketBox</h1>
+    <ul>
+        <li><a href="{{ url_for('browse') }}">View All Events</a></li>
+        <li><a href="{{ url_for('buy') }}">Buy a Ticket</a></li>
+    </ul>
+</body>
+</html>

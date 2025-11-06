@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Events</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6f9;
+            padding: 30px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th {
+            background: #007bff;
+            color: white;
+            padding: 12px;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background: #f1f1f1;
+        }
+        a {
+            display: block;
+            width: 120px;
+            margin: 20px auto;
+            text-align: center;
+            text-decoration: none;
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+<h2>Upcoming Events</h2>
+<table>
+<tr>
+    <th>Event</th>
+    <th>Date</th>
+    <th>Price</th>
+    <th>Tickets Left</th>
+    <th>Status</th>
+</tr>
+{% for e in events %}
+<tr>
+    <td>{{ e[1] }}</td>
+    <td>{{ e[2] }}</td>
+    <td>${{ e[3] }}</td>
+    <td>{{ e[4] }}</td>
+    <td>{{ e[5] }}</td>
+</tr>
+{% endfor %}
+</table>
+<a href="{{ url_for('homepage') }}">Back</a>
+</body>
+</html>
