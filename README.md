@@ -64,11 +64,11 @@ HTML + Jinja2 Templates
 
 Візуалізація проекту 
 
-![](.Снимок экрана 2025-12-04 085548.png)
+![](https://github.com/OsypovIvan/bd_LASTtask/tree/main/final_project/Снимок экрана 2025-12-04 085548.png)
 
-(.2.png)
+(https://github.com/OsypovIvan/bd_LASTtask/tree/main/final_project/2.png)
 
 
-(.3.png)
+(https://github.com/OsypovIvan/bd_LASTtask/tree/main/final_project/3.png)
 
-(.4.png)
+(https://github.com/OsypovIvan/bd_LASTtask/tree/main/final_project/4.png)
