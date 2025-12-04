@@ -64,10 +64,10 @@ HTML + Jinja2 Templates
 
 Візуалізація проекту 
 
-![Скрин 1](https://github.com/OsypovIvan/bd_LASTtask/blob/main/final_project/Снимок%20экрана%202025-12-04%20085548.png?raw=true)
+![Скрін 1](final_project/Снимок экрана 2025-12-04 085548.png)
 
-![Скрин 2](https://github.com/OsypovIvan/bd_LASTtask/blob/main/final_project/2.png?raw=true)
+![Скрін 2](final_project/2.png)
 
-![Скрин 3](https://github.com/OsypovIvan/bd_LASTtask/blob/main/final_project/3.png?raw=true)
+![Скрін 3](final_project/3.png)
 
-![Скрин 4](https://github.com/OsypovIvan/bd_LASTtask/blob/main/final_project/4.png?raw=true)
+![Скрін 4](final_project/4.png)
