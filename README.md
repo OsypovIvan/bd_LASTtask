@@ -71,3 +71,5 @@ HTML + Jinja2 Templates
 ![Скрін 3](https://github.com/OsypovIvan/bd_LASTtask/blob/main/3.png?raw=true)
 
 ![Скрін 4](https://github.com/OsypovIvan/bd_LASTtask/blob/main/4.png?raw=true)
+
+![Скрін 5](https://github.com/OsypovIvan/bd_LASTtask/blob/main/5.png?raw=true)
