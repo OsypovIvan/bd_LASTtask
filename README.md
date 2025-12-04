@@ -64,10 +64,10 @@ HTML + Jinja2 Templates
 
 Візуалізація проекту 
 
-![Скрін 1](.final_project/Снимок экрана 2025-12-04 085548.png)
+![Скрін 1](final_project/Снимок экрана 2025-12-04 085548.png)
 
-![Скрін 2](.final_project/2.png)
+![Скрін 2](final_project/2.png)
 
-![Скрін 3](.final_project/3.png)
+![Скрін 3](final_project/3.png)
 
-![Скрін 4](.final_project/4.png)
+![Скрін 4](final_project/4.png)
