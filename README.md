@@ -62,5 +62,8 @@ PostgreSQL
 psycopg2
 HTML + Jinja2 Templates
 
+Візуалізація проекту 
+
+
 
 
